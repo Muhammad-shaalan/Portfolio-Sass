@@ -1,0 +1,52 @@
+@media screen and (min-width: 1171px) {
+  .projects {
+    grid-template-columns: repeat(4, 1fr); } }
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr); } }
+@media screen and (max-width: 768px) {
+  .menu-nav,
+  .menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0; }
+    .menu-navshow,
+    .menu-brandingshow {
+      transform: translate3d(0, 0, 0); }
+
+  .menu-nav {
+    height: 70vh;
+    transform: translate3d(-100%, 0, 0); }
+    .menu-nav .nav-item .nav-link {
+      font-size: 22px; }
+
+  .menu-branding {
+    height: 30vh;
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: solid 3px #eece1a; }
+
+  main {
+    align-items: center;
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; }
+
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-columns: 1fr; }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr); } }
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 20vh !important; }
+
+  .projects {
+    grid-template-columns: repeat(1, 1fr); } }
+
+/*# sourceMappingURL=mobile.css.map */
